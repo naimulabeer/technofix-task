@@ -1,7 +1,29 @@
 #sidebar a.active {
   color: #2f0ea883;
+  border-top: solid 3px #2f0ea883;
 }
 
 #sidebar a:hover {
-  color: #aea5cd83;
+  color: #8168dd83;
+}
+
+#sidebar a:after {
+  display: block;
+  content: "";
+  width: inherit;
+  border-bottom: solid 3px black;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+
+#sidebar a:hover:after {
+  transform: scaleX(1);
+}
+
+#sidebar a.from-left:after {
+  transform-origin: left;
+}
+
+#sidebar a.from-right:after {
+  transform-origin: right;
 }
