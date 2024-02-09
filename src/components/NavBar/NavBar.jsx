@@ -8,7 +8,7 @@ function NavBar() {
 
       <NavLink to="/users">Users</NavLink>
 
-      <NavLink to="/addUsers">Add Users</NavLink>
+      <NavLink to="/addUser">Add User</NavLink>
     </nav>
   );
 

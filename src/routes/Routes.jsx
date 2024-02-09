@@ -3,6 +3,7 @@ import Root from "../layouts/Root";
 import ErrorPage from "../pages/Error/ErrorPage";
 import UsersList from "../pages/Users/UsersList";
 import UserDetails from "../pages/Users/UserDetails";
+import AddUser from "../pages/Users/AddUser";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
       {
         path: "/user/:userId",
         element: <UserDetails />,
+      },
+      {
+        path: "/addUser",
+        element: <AddUser />,
       },
     ],
   },
