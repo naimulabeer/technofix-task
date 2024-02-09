@@ -1,0 +1,7 @@
+#sidebar a.active {
+  color: #2f0ea883;
+}
+
+#sidebar a:hover {
+  color: #aea5cd83;
+}
