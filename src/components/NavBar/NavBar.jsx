@@ -45,7 +45,18 @@ function NavBar() {
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <div
+          tabIndex={0}
+          role="button"
+          className="btn btn-ghost btn-circle avatar "
+        >
+          <div className="w-10 rounded-full">
+            <img
+              alt="Tailwind CSS Navbar component"
+              src="https://i.ibb.co/k93sQrL/cv3.jpg"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );

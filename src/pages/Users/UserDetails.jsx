@@ -17,7 +17,9 @@ function UserDetails() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-8">User Details</h1>
+      <h1 className="text-3xl font-bold mb-8">
+        {`${user.firstName} ${user.lastName}'s`} Details
+      </h1>
       <div className="card lg:card-side lg:w-[600px] md:w-96 bg-base-100 shadow-xl">
         <img
           className="w-48 h-48 object-cover"
